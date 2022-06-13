@@ -1,0 +1,61 @@
+body {
+  background-image: url(./img/5mm\ dot\ grid-adjust.jpeg);
+  background-color: #cccccc;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.3rem 3rem 3rem 3rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(73, 63, 63, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#list-things-todo li:last-of-type {
+  margin-bottom: 0;
+}
+
+.pending {
+  background: #c6dce4;
+}
+.done {
+  background: #ffe6e6;
+}
+
+.icon-remove {
+  width: 2rem;
+}
+.btn-completed {
+  border: none;
+  padding: 0.5rem 3rem;
+  border-radius: 5rem;
+}
+.btn-add {
+  padding: 0;
+  border-radius: 0;
+  background-color: white;
+  border: none;
+}
+#new-todo {
+  padding: 0.5rem;
+  border-radius: 5rem;
+  border: 1px solid grey;
+}
+.btn-add img {
+  width: 2rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.hidden {
+  display: none;
+}
